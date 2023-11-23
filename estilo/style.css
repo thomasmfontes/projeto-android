@@ -82,7 +82,7 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     transition-duration: 0.5s;
-    font-size: clamp(.75em, 2vw, 1em);
+    font-size: clamp(.75em, 2vw, 1rem);
 }
 
 nav a:hover {
@@ -174,7 +174,7 @@ aside {
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.589);
 }
 
-aside >h3 {
+aside > h3 {
     background-color: var(--cor4);
     color: white;
     padding: 10px;
